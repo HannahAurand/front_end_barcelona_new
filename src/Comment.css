@@ -14,6 +14,8 @@ font-family: 'Poppins', sans-serif; */
 
 .neighborhood p {
     font-family: 'Poppins', sans-serif;
+    /* background-color: rgba(98, 126, 87, 0.24); */
+    padding: 15px;
 }
 
 .img_container {
@@ -91,6 +93,10 @@ font-family: 'Poppins', sans-serif; */
 
   .comments {
       padding-bottom: 50px;
+      border-right: 30px solid rgb(253, 175, 156);
+      border-left: 30px solid rgb(253, 175, 156);
+      margin-left: 0px;
+      margin-right: 0px;
   }
 
   .comment_card h4, sub, p {
@@ -99,6 +105,8 @@ font-family: 'Poppins', sans-serif; */
 
   .comment_card {
       margin: 10px 0px 15px 20px;
+      background-color: rgba(82, 133, 62, 0.116);
+      padding: 10px;
   }
 
   .neighborhood p {
