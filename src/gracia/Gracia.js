@@ -9,7 +9,7 @@ class Gracia extends Component {
   render() {
     return (
       <div className="neighborhood">
-        <h1>Hola, Gracia!</h1>
+        <h1 className="hola_neighborhood">Hola, Gracia!</h1>
         <div className="image_container">
           <img
             src={swing}

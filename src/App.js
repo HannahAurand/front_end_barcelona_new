@@ -9,6 +9,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="secret_gull">
+          <p>Full confession: this is a Roman Sea-gull...not Spanish.</p>
+        </div>
         <header>
           <h5>A guide to avoid the tourist traps</h5>
         </header>
