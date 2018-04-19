@@ -1,28 +1,81 @@
-.App {
-  text-align: center;
+nav {
+  height: 40px;
+  margin: 0px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+#h1thing {
+  font-size: 4em;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 0px;
+  transform: rotate(-15deg);
+  color: rgb(241, 210, 32);
+  text-shadow: 5px 0 rgb(252, 7, 7), 0 5px rgb(245, 5, 5), 5px 0 rgb(247, 6, 6), 0 5px rgb(218, 14, 7);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.mapContainer {
+  margin-top: 10px;
+}
+
+.self {
+  width: 300px;
+  position: absolute; 
+  top: 20px;
+  right: 25px;
+  /* border: 5px solid rgb(248, 161, 127); */
+}
+
+.author {
+  /* background-color: rgb(240, 176, 176); */
+  /* border: 1px solid rgb(0, 17, 255); */
+  width: 350px;
+  height: 530px;
+  position: absolute;
+  top: 69px;
+  right: 20px;
+  background-color: rgb(205, 231, 245);
+  padding: 5px;
+}
+
+.author p {
+  margin-top: 200px;
+  padding: 30px;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+}
+
+.author h3 {
+  font-size: 2em;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  left: 0px;
+  transform: rotate(-20deg);
+  color: rgb(241, 210, 32);
+  text-shadow: 5px 0 rgb(252, 7, 7), 0 5px rgb(245, 5, 5), 5px 0 rgb(247, 6, 6), 0 5px rgb(218, 14, 7);
+}
+
+header {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(253, 93, 65);
+  margin-top: -70px;
+}
+
+header h5 {
+  margin-left: 55%;
+  font-size: 2em;
+  margin-top: 15px;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
 
-.App-intro {
-  font-size: large;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */

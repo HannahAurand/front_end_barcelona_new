@@ -1,0 +1,208 @@
+.area {
+    background-image: url('../images/barcelona-tourist-map.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px;
+    height: 550px;
+    background-size: contain;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.clickable {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.356);
+}
+
+.clickable:hover 
+{
+ font-size: 4em; /* This controls the size. */
+ display: inline-block;
+ width: 0.4em;
+ height: 0.4em;
+ border: 0.1em solid red;
+ position: relative;
+ border-radius: 0.35em;
+}
+.clickable::before
+{
+ content: "";
+ display: inline-block;
+ position: absolute;
+ right: -0.25em;
+ bottom: -0.1em;
+ border-width: 0;
+ background: red;
+ width: 0.35em;
+ height: 0.08em;
+ -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+}
+
+#gotico {
+    position: absolute;
+    top: 350px;
+    left: 410px;
+}
+
+#gotico:hover {
+    position: absolute;
+    top: 350px;
+    left: 410px;
+    /* background-color: rgba(255, 238, 0, 0.568); */
+}
+
+#vila {
+    position: absolute;
+    top: 365px;
+    left: 610px;
+}
+
+#vila:hover {
+    position: absolute;
+    top: 365px;
+    left: 610px;
+    /* background-color: rgba(255, 238, 0, 0.562); */
+}
+
+#barceloneta {
+    position: absolute;
+    top: 415px;
+    left: 500px;
+}
+
+#barceloneta:hover {
+    position: absolute;
+    top: 415px;
+    left: 500px;
+    /* background-color: rgba(255, 238, 0, 0.548); */
+}
+
+#barceloneta {
+    position: absolute;
+    top: 415px;
+    left: 500px;
+}
+
+#barceloneta:hover {
+    position: absolute;
+    top: 415px;
+    left: 500px;
+    /* background-color: rgba(255, 238, 0, 0.534); */
+}
+
+#poblesec {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+
+}
+
+#poblesec {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+
+}
+
+#poblesec:hover {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    /* background-color: rgba(255, 238, 0, 0.507); */
+
+}
+
+#sanantoni {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+}
+
+#sanantoni:hover {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    /* background-color: rgba(255, 238, 0, 0.562); */
+}
+
+#montjuic {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+
+}
+
+#montjuic:hover {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    /* background-color: rgba(255, 238, 0, 0.527); */
+}
+
+#gracia {
+    position: absolute;
+    top: 190px;
+    left: 480px;
+}
+
+#gracia:hover {
+    position: absolute;
+    top: 190px;
+    left: 480px;
+    /* background-color: rgba(255, 238, 0, 0.507); */
+}
+
+#laberinto {
+    position: absolute;
+    top: 160px;
+    left: 750px;
+}
+
+#laberinto:hover {
+    position: absolute;
+    top: 160px;
+    left: 750px;
+    /* background-color: rgba(255, 238, 0, 0.5); */
+}
+
+#tibidabo {
+    top: 50px;
+    left: 330px;
+}
+
+#tibidabo:hover {
+    top: 50px;
+    left: 330px;
+    /* background-color: rgba(255, 238, 0, 0.5); */
+}
+
+#plazaespanya {
+    top: 258px;
+    left: 154px;
+}
+
+#plazaespanya:hover {
+    top: 258px;
+    left: 154px;
+    /* background-color: rgba(255, 238, 0, 0.5); */
+}
+
+#parcguell {
+    top: 130px;
+    left: 520px;
+}
+
+#parcguell:hover {
+    top: 130px;
+    left: 520px;
+    /* background-color: rgba(255, 238, 0, 0.5); */
+}
+
+
