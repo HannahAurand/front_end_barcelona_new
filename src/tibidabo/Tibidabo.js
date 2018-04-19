@@ -3,6 +3,8 @@ import { Link, Route, Switch } from 'react-router-dom'
 import tibidabo from '../images/tibidabo.jpg'
 import hacia from '../images/tibidabo-1.jpg'
 import amusement from '../images/tibidabo-amusement.jpg'
+// import Question from '../quiz_components/Question'
+// import PropTypes from 'prop-types'
 
 class Tibidabo extends Component {
   render() {
@@ -31,6 +33,9 @@ class Tibidabo extends Component {
           literally mean, "5 apples toward Tibidabo." They mean "5 blocks in
           Tibidabo's direction"
         </p>
+        <div className="quiz">
+          <h3>Quiz</h3>
+        </div>
         <div className="comments">
           <h2 className="hvr-underline-from-center">Comments</h2>
           <div className="comment_card">
