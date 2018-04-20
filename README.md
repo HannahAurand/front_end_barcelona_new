@@ -8,6 +8,7 @@ This is the static front end version of a full stack app I am currently producin
 In the true app, API calls will call the necessary data from the db, and the server will allow for users to upload comments and add their own photos of their favorite places around Barcelona. A gold feature would be to add the ability for users to add their own marks on the map and create their own "favorite site" page for others to see. 
 
 Here is the back-end currently in development: https://github.com/HannahAurand/barcelona_backend
+
 Here is the front-end that was formerly in development: https://github.com/HannahAurand/barcelona_frontend
 
 This was an attempt to understand React props and utilize them correctly, but one cannot just learn react in a short amount of time as a newb. So the beat goes on, da da da dum da dum dum...(Eminem, "Spaghetti") (meaning I'm continuing my project to learn the best practice).
