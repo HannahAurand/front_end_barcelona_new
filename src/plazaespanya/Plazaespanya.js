@@ -8,7 +8,7 @@ class Plazaespanya extends Component {
   render() {
     return (
       <div className="neighborhood">
-        <h1 className="hola_neighborhood">Hola, Plaza Espanya!</h1>
+        <h1 className="hola_neighborhood">Hola, Plaza de Espanya!</h1>
         <div className="image_container">
           <img src={sardana} alt="Dancing Sardana" />
           <img src={plaza} alt="Plaza de Espanya" />
@@ -30,12 +30,12 @@ class Plazaespanya extends Component {
         <div className="comments">
           <h2 className="hvr-underline-from-center">Comments</h2>
           <div className="comment_card">
-            <h4>Me gusta</h4>
+            <h4>Super Guay Hombre</h4>
             <sub>April 15, 2018</sub>
             <p>Totalmente divertido! Super guay!</p>
           </div>
           <div className="comment_card">
-            <h4>The church is beautiful</h4>
+            <h4>Turn down for wut</h4>
             <sub>April 14, 2018</sub>
             <p>Sometimes people dance here, it's cool.</p>
           </div>

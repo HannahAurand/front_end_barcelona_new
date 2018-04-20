@@ -33,9 +33,6 @@ class Tibidabo extends Component {
           literally mean, "5 apples toward Tibidabo." They mean "5 blocks in
           Tibidabo's direction"
         </p>
-        <div className="quiz">
-          <h3>Quiz</h3>
-        </div>
         <div className="comments">
           <h2 className="hvr-underline-from-center">Comments</h2>
           <div className="comment_card">
@@ -50,10 +47,9 @@ class Tibidabo extends Component {
             <h4>The church is beautiful</h4>
             <sub>April 14, 2018</sub>
             <p>
-              {' '}
               Too many tourists. Super noisy. But GREAT view! Definitely go
               during off-peak hours early in the morning if you want less
-              tourists around.{' '}
+              tourists around.
             </p>
           </div>
         </div>

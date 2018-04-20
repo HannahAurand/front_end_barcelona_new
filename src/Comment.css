@@ -14,8 +14,9 @@ font-family: 'Poppins', sans-serif; */
 
 .neighborhood p {
     font-family: 'Poppins', sans-serif;
-    /* background-color: rgba(98, 126, 87, 0.24); */
+    background-color: rgb(190, 211, 183);
     padding: 15px;
+
 }
 
 .img_container {
